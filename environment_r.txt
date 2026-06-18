@@ -1,0 +1,19 @@
+R version 4.3.1
+
+# ─── PACKAGE SPECIFICATION ───
+
+# Install via: install.packages("package", version = "x.x.x") or remotes::install_version("package", version = "x.x.x")
+
+ggplot2      3.4.x
+ggseg        1.6.x
+ggsegDKT     (GitHub: ggseg/ggsegDKT)
+
+# ─── INSTALLATION NOTES ───
+
+# ggseg and ggsegDKT are not available on CRAN and must be installed from GitHub using the remotes package:
+#   install.packages("remotes")
+#   remotes::install_github("ggseg/ggseg")
+#   remotes::install_github("ggseg/ggsegDKT")
+#
+# ggplot2 can be installed directly from CRAN:
+#   install.packages("ggplot2")

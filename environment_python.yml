@@ -1,0 +1,39 @@
+name: environment_python
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+
+  # ─── PYTHON INTERPRETER ───
+  - python=3.9.18
+
+  # ─── NUMERICAL STACK ───
+  - numpy=1.23.5
+  - pandas=1.5.3
+  - scipy=1.10.1
+  - scikit-learn=1.2.2
+
+  # ─── NEUROIMAGING CORE ───
+  - nibabel=5.1.0
+  - nilearn=0.10.1
+
+  # ─── PDF / IMAGE POST-PROCESSING ───
+  - poppler=26.02.0
+  - pillow=9.5.0
+
+  # ─── VISUALIZATION ───
+  - matplotlib=3.7.1
+  - seaborn=0.12.2
+
+  # ─── WEB INTERFACE ───
+  - streamlit=1.28.0
+
+  # ─── PIP DEPENDENCIES (NOT AVAILABLE OR PINNED VIA CONDA-FORGE) ───
+  - pip
+  - pip:
+    - abagen==0.1.3
+    - dcm2niix==1.0.20211006
+    - antspyx==0.3.8
+    - pdf2image==1.16.3

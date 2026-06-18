@@ -1,0 +1,14 @@
+{
+  "modality": "tau",
+  "n_regions": 81,
+  "n_genes": 21,
+  "ridge": {
+    "r2": 0.1645,
+    "mae": 0.0664
+  },
+  "gradient_boosting": {
+    "r2": 0.728,
+    "mae": 0.0355
+  },
+  "best_model": "gradient_boosting"
+}
